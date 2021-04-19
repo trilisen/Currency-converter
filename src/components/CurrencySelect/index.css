@@ -1,0 +1,14 @@
+.currencyOptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+#currencies {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+#currencies:focus {
+  outline: none;
+}
