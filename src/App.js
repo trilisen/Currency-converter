@@ -51,7 +51,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Simple Currency Converter</h1>
+      <h1>Simply Convert</h1>
+      <h2>Currency Converter</h2>
       <main>
         <ValueInput
           fromAmount={fromAmount}
