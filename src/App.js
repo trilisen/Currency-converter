@@ -65,7 +65,7 @@ function App() {
             handleChange={handleFromCurrency}
             selected={fromCurrency}
           />
-          <p>--&gt;</p>
+          <p className="arrow">--&gt;</p>
           <CurrencySelect
             toOrFrom="To"
             currencies={currencyOptions}
